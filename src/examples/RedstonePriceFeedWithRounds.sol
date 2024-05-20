@@ -2,7 +2,7 @@
 pragma solidity 0.8.17;
 
 import {MergedPriceFeedAdapterWithRounds} from
-    "./on-chain-relayer/contracts/price-feeds/with-rounds/MergedPriceFeedAdapterWithRounds.sol";
+    "../on-chain-relayer/contracts/price-feeds/with-rounds/MergedPriceFeedAdapterWithRounds.sol";
 
 /**
  * @title RedstonePriceFeedWithRounds
