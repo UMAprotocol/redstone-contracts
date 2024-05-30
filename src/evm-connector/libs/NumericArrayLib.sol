@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.4;
 
-import "@openzeppelin/contracts/utils/math/SafeMath.sol";
+import "../../../lib/openzeppelin-contracts/contracts/utils/math/SafeMath.sol";
 
 library NumericArrayLib {
   // This function sort array in memory using bubble sort algorithm,

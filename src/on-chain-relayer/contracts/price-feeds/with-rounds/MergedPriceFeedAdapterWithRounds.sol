@@ -6,7 +6,7 @@ import {PriceFeedBase, PriceFeedWithRounds} from "./PriceFeedWithRounds.sol";
 import {PriceFeedsAdapterBase, PriceFeedsAdapterWithRounds} from "./PriceFeedsAdapterWithRounds.sol";
 import {IRedstoneAdapter} from "../../core/IRedstoneAdapter.sol";
 import {MergedPriceFeedAdapterCommon} from "../MergedPriceFeedAdapterCommon.sol";
-import {SafeCast} from "@openzeppelin/contracts/utils/math/SafeCast.sol";
+import {SafeCast} from "../../../../../lib/openzeppelin-contracts/contracts/utils/math/SafeCast.sol";
 
 abstract contract MergedPriceFeedAdapterWithRounds is
   MergedPriceFeedAdapterCommon,
