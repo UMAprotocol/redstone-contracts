@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.14;
 
-import {SafeCast} from "@openzeppelin/contracts/utils/math/SafeCast.sol";
+import {SafeCast} from "../../../../../lib/openzeppelin-contracts/contracts/utils/math/SafeCast.sol";
 import {MergedPriceFeedAdapterWithoutRoundsPrimaryProd} from "../../price-feeds/data-services/MergedPriceFeedAdapterWithoutRoundsPrimaryProd.sol";
 import {DeviationLib} from "../../libs/DeviationLib.sol";
 

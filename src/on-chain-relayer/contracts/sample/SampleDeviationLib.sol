@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.14;
 
-import {SafeCast} from "@openzeppelin/contracts/utils/math/SafeCast.sol";
+import {SafeCast} from "../../../../lib/openzeppelin-contracts/contracts/utils/math/SafeCast.sol";
 
 library SampleDeviationLib {
   function calculateAbsDeviation(
